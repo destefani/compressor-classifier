@@ -1,0 +1,9 @@
+# datasets
+datasets/
+
+# venv
+venv/
+
+# caches
+compressor/__pycache__/
+config/__pycache__/
