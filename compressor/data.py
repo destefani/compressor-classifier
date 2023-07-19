@@ -51,7 +51,6 @@ class ACLIMDB:
         for dataset_type in ["train", "test"]:
             for sentiment in ["pos", "neg"]:
                 folder = os.path.join(self.dataset_dir, dataset_type, sentiment)
-                print(folder)
                 for filename in os.listdir(folder):
                     with open(os.path.join(folder, filename), 'r') as file:
                         text = file.read()
