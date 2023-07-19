@@ -7,3 +7,4 @@ venv/
 # caches
 compressor/__pycache__/
 config/__pycache__/
+compressor_classifier.egg-info/
