@@ -4,7 +4,7 @@ from tqdm import tqdm
 from multiprocessing import Pool
 
 class TextClassifier:
-    def __init__(self, k=1, n_jobs=-1):
+    def __init__(self, k=2, n_jobs=-1):
         self.k = k
         self.n_jobs = n_jobs if n_jobs != -1 else None
         self.training_set = []
