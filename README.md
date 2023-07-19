@@ -5,5 +5,8 @@ Implementation of the paper: ["Low-resource" Text Classification: A Parameter-Fr
 ## Install 
 
 ```
-python3 -m pip install -e .            # installs required packages only
+python3 -m venv venv
+source venv/bin/activate
+python3 -m pip install pip setuptools wheel
+python3 -m pip install -e .
 ```
